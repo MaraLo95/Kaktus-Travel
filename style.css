@@ -81,6 +81,46 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   
+  
+}
+
+.text{
+  text-align: center;
+  border: 1px solid #eccfa5;
+  background-color: white;
+  opacity: 0.7;
+  
+  
+}
+
+.red{
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+
+
+.cena{
+  font-weight: bold;
+  font-style: inherit;
+}
+
+.frame{
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #0000;
+  outline: 1px solid #000;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
+  --s: 10px;
+}
+
+
+.destinacije{
+  background-image: url('img/putovanja.jpg');
+  padding-top: 50px;
+  background-repeat: no-repeat;
+
 }
 
 .putovanja{
@@ -101,13 +141,17 @@ h1 {
 }
 
 .dugmePutovanja{
-  height: 20%;
+  height: 30%;
   width: 30%;
   color: white;
   border:none;
-  border-radius:20px;
   background-color: #03888d;
-  margin-left: 120px;
+  margin-left: 100px;
+
+}
+
+.zvezda{
+  color: #f7db39;
 
 }
 
@@ -238,6 +282,16 @@ input[type="email"]{
   border-bottom: 1px solid #2b2d3f;
   outline: medium none;
   box-shadow: none;
+}
+
+input[type="checkbox"]{
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+ 
 }
 
 @media only screen and (max-width: 768px) {
